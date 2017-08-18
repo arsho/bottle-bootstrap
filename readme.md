@@ -140,10 +140,10 @@ Here is a working approach of adding static files like CSS/JS in **Bottle** web 
 
 [![bottle bootstrap demo][1]][1]
 
-  [1]: https://i.stack.imgur.com/8LEgd.png
+  [1]: https://raw.githubusercontent.com/arsho/bottle-bootstrap/master/bottle_bootstrap.png
 
 Contribute
-~~~~~~~~~~
+-------------
 
 Create Github Pull Request https://github.com/arsho/bottle-bootstrap/pulls
 
@@ -152,4 +152,4 @@ If you have suggestion use GitHub issue system or send a message in Facebook htt
 Change log
 ----------
 
-See `CHANGELOG <https://github.com/arsho/bottle-bootstrap/blob/master/CHANGELOG.rst>`_.
+See [CHANGELOG](https://github.com/arsho/bottle-bootstrap/blob/master/CHANGELOG.rst)
