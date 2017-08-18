@@ -130,7 +130,6 @@ Here is a working approach of adding static files like CSS/JS in **Bottle** web 
 
 [![bottle bootstrap demo][1]][1]
 
-
   [1]: https://i.stack.imgur.com/8LEgd.png
 
 Contribute
