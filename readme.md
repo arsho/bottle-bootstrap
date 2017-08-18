@@ -1,11 +1,13 @@
 Bottle Bootstrap
 ================
-|Build Status| |Size|
+[![Build Status](https://travis-ci.org/arsho/bottle-bootstrap.svg?branch=master)](https://travis-ci.org/arsho/bottle-bootstrap) 
+[![Size](https://img.shields.io/github/size/arsho/bottle-bootstrap/app.py.svg?)](https://github.com/arsho/bottle-bootstrap/)
 
 Here is a working approach of adding static files like CSS/JS in **Bottle** web project. I am using Bootstrap and Python 3.6.
 
 **Project structure**
 
+```bash
     project
     ¦   app.py
     ¦   bottle.py
@@ -38,9 +40,12 @@ Here is a working approach of adding static files like CSS/JS in **Bottle** web 
     ¦
     +---views
             index.tpl
-
+```
+			
+			
 **app.py**
 
+```python
     from bottle import Bottle, run, \
          template, debug, static_file
     
@@ -66,9 +71,12 @@ Here is a working approach of adding static files like CSS/JS in **Bottle** web 
         return template('index', data = data)
     
     run(app, host='localhost', port = 8080)
-
+```
+	
+	
 **index.tpl**
 
+```html
     <!DOCTYPE html>
     <html>
     <head>
@@ -125,7 +133,9 @@ Here is a working approach of adding static files like CSS/JS in **Bottle** web 
     	<!-- /container -->
     </body>
     </html>
-
+```
+	
+	
 **Output**
 
 [![bottle bootstrap demo][1]][1]
@@ -143,9 +153,3 @@ Change log
 ----------
 
 See `CHANGELOG <https://github.com/arsho/bottle-bootstrap/blob/master/CHANGELOG.rst>`_.
-
-.. |Build Status| image:: https://travis-ci.org/arsho/bottle-bootstrap.svg?branch=master
-   :target: https://travis-ci.org/arsho/bottle-bootstrap
-
-.. |Size| image:: https://img.shields.io/github/size/arsho/bottle-bootstrap/app.py.svg?
-   :target: https://github.com/arsho/bottle-bootstrap/  
